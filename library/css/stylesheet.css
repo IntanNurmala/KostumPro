@@ -90,5 +90,6 @@ a:visited{
 p.artikel{
 	font-weight:normal;
 	font-size:18px;
-	font-family: "Comic Sans MS"
+	font-family: "Comic Sans MS";
+	text-align: justify;
 }
