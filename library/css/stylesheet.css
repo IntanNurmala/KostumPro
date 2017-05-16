@@ -89,7 +89,13 @@ a:visited{
 
 p.artikel{
 	font-weight:normal;
-	font-size:18px;
+	font-size:16px;
 	font-family: "Comic Sans MS";
 	text-align: justify;
+}
+
+.float{
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
 }
