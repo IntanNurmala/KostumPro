@@ -4,11 +4,14 @@
 	<meta charset="utf-8">
 	<title>Kostum Profesi Anak</title>
 	<script src="library/js/bootstrap.min.js"></script>
-	<script src="library/js/bootstrap.js"></script>
-	
+	<!--
 	<link rel="stylesheet" href="library/css/bootstrap.css">
+	<link rel="stylesheet" href="library/css/bootstrap.min.css">
 	<link rel="stylesheet" href="library/css/stylesheet.css">
-	
+	-->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="shortcut icon" href="images/logo/kostumpro_fc.png">
 
 </head>
@@ -68,7 +71,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-5">
-				<img src="images/jasdokter/png/kostum_dokter_kecil2.png" width="250px" hight="350px">
+				<img src="images/jasdokter/png/kostum_dokter_kecil2.png" width="200px" hight="300px">
 				
 			</div>
 	
@@ -84,13 +87,121 @@
 					  <ul class="dropdown-menu">
 					  	<li><a href="#">ukuran 3 (3-4 tahun)</a></li>
 					  	<li><a href="#">ukuran 4 (4-5 tahun)</a></li>
+					  	<li><a href="#">ukuran 5 (5-6 tahun)</a></li>
+					  	<li><a href="#">ukuran 6 (6-7 tahun)</a></li>
+					  	<li><a href="#">ukuran 7 (7-8 tahun)</a></li>
 					  </ul>
+				</div>
+				<br>
+				<br>
+				<div class="col-sm-3">
+				<p>qty</p>
+					<input type="number" name="quantity" min="1" max="100" style="width:40%">
+					
+				</div>
+				
+				<div class="col-sm-4">
+				<p>Harga Satuan</p>
+				<p>Rp 100.000</p>
+				<br>
+				<button type="button" class="btn btn-warning">Beli Sekarang</button>
+				</div>
+				
+				<div class="col-sm-5">
+				<p>Total</p>
+				<p>Rp 100.000</p>
 				</div>
 			</div>
 		</div>
+			<br>
+			<br>
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+					
+				</div>
+			
+			</div>
 	
 	</div>
-<button type="button" class="btn btn-warning">Beli Sekarang</button>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<ul class="nav nav-pills">
+					<li class="active"><a data-toggle="pill" href="#info">Informasi Produk</a></li>
+					<li><a data-toggle="pill" href="#ulasan">Ulasan</a></li>
+				</ul> 
+			</div>
+			
+			<div class="tab-content">
+				<div id="info" class="tab-pane fade in active">
+					<br>
+					<br>
+					<h3 style="text-align:center"><strong>Informasi</strong></h3>
+					<p><strong>Kondisi Produk : Produk Baru</strong></p>
+					<p><strong>Berat Produk   : 0.4 kg</strong></p>
+					<br>
+					<p><strong>Deskrpsi Produk</strong></p>
+					<p>Kostum baju dokter kecil tangan panjang</p>
+					<p style="text-align:justify">terdiri dari: <br>
+					   Jas panjang selutut, bahan Oxford yang nyaman di pakai, warna putih, lengan panjang
+					   dengan kancing di bagian depan dan logo PMI di bagian dada sebelah kiri.
+					   (tidak termasuk accesories lainnya)
+					 </p>
+					  
+					 <p>ukuran :</p>
+					 
+					 <div class="container">
+					 	<div class="row">
+					 		<div class="col-sm-2">
+					 			<p>ukuran<br>
+					 			   3 (3-4 tahun)<br>
+					 			   4 (4-5 tahun)<br>
+			 		   			</p>
+					 		</div>
+					 		
+					 		<div class="col-sm-2">
+					 			<p>Lingkar Baju<br>
+					 			   68 cm<br>
+					 			   76 cm<br>
+					 			   
+					 			</p>
+					 		</div>
+					 		
+					 		<div class="col-sm-2">
+					 			<p>Panjang Baju<br>
+					 				49 cm<br>
+					 				60 cm<br>
+					 			</p>
+					 		</div>
+					 		
+					 		<div class="col-sm-2">
+					 			<p>Harga<br>
+					 				Rp 100.000,-<br>
+					 				Rp 100.000,-<br>
+					 				
+					 				
+					 			</p>
+					 		</div>
+					 	</div>
+					 		
+					 </div>
+				</div>	
+				
+				<div id="ulasan" class="tab-pane fade">
+					<br>
+					<h3>Ulasan Produk</h3>
+						<img src="images/ulasan/jasdokter/ulasan_dokter.jpg">
+				</div> 
+			
+			
+			
+			</div>
+		</div>
+	</div>
+
 
 </body>
 </html>

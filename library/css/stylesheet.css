@@ -11,6 +11,9 @@
   margin-top: -17px;
   }
 
+.footer{
+	margin-top:200px;
+}
 #wrapper-content{
 	height:1000px;  
 	}
@@ -98,4 +101,8 @@ p.artikel{
 	float: left;
 	margin-bottom: 20px;
 	margin-right: 20px;
+}
+.img{
+	display:block;
+	margin: 0 auto;
 }
