@@ -92,7 +92,7 @@ a:visited{
 
 p.artikel{
 	font-weight:normal;
-	font-size:16px;
+	font-size:14px;
 	font-family: "Comic Sans MS";
 	text-align: justify;
 }
@@ -107,3 +107,22 @@ p.artikel{
 	margin-right: auto;
 	display: table;
 }
+.h1judul{
+	font-family:"Curlz MT"
+	}
+	
+input[type=submit], input{type="button"],button{
+		background=#bb0000;
+		border: 0px;
+		padding:10px 20 px;
+		color:#fff;
+}
+
+input[type=keterangan], input{type="button"],button{
+		background=#bb0000;
+		border: 0px;
+		padding:10px 20 px;
+		color:#fff;
+		width=100px;
+}
+
